@@ -11,13 +11,7 @@ To identify high-risk assets by:
 
 ## 📂 Project Structure
 
-📁 bayesian-risk-assessment/
-├── data/
-├── output/
-├── src/
-├── AkashA_BayesianRiskReport.pdf
-├── requirements.txt
-└── README.md
+bayesian-risk-assessment/ ├── data/ # Contains all input datasets │ ├── asset_vulnerability_mapping_data.xlsx │ ├── threat_actor_asset_mapping_data.xlsx │ ├── threat_intel_data.xlsx │ └── prior_attack_success_rate.xlsx ├── output/ # Final ranked results exported here │ └── ranked_risk_assets.xlsx ├── src/ # Source code for data processing and risk analysis │ ├── data_loader.py │ ├── preprocess.py │ ├── threat_intel_loader.py │ ├── risk_analysis.py │ └── main.py ├── AkashA_BayesianRiskReport.pdf # Final report for evaluation ├── requirements.txt # Python dependencies └── README.md # This file
 
 ## 🛠️ Tools & Libraries Used
 
